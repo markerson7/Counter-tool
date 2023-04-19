@@ -2,7 +2,7 @@ let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 function increase(){
-  count += 2
+  count += 1
   //count ++
   countEl.textContent = count
 }
